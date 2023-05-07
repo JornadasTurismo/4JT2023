@@ -48,17 +48,16 @@ html, body{
 /* for top menu */
 
 .main-header{
-  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 20px;
   width: 100%;
   font-size: 20px;
   margin-bottom: 0px;
-  margin-top: -92px;
+  margin-top: -80px;
   }
 
+  
   header li{
     display: inline;
     display: flex;
