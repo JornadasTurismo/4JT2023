@@ -65,7 +65,7 @@ html, body{
     padding: 10px;
   }
 
-  
+
 .top-nav ul {
   margin:5px;
   padding: 10px;
@@ -147,9 +147,9 @@ img {
  /* /////////////   for numbering /////////////////////////*/
 
 
- body.card{
-   counter-reset: sectionCounter  cardCounter ;
- }
+body.card{
+    counter-reset: sectionCounter  cardCounter ;
+          }
 
 
 h1.page-title{
