@@ -135,13 +135,13 @@ html, body{
 
 
 img {
-  align-self: flex-star;
+ 
 }
 
 img.wmargen {
-  align-self: flex-start;
   margin-top:8px;
 }
+
 
 
 
