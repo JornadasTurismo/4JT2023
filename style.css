@@ -51,18 +51,26 @@ html, body{
   width: 100%;
   font-size: 20px;
   margin-bottom: 0px;
-  margin-top: -80px;
+  margin-top: -92px;
+  }
+
+  header li{
+    display: inline;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
  
 .small-nav{
     padding: 10px;
   }
 
+  
 .top-nav ul {
   margin:5px;
   padding: 10px;
-  border-radius: 25px;
-  background-color: rgb(132, 198, 236);
+  border-radius: 90px;
+  background-color: rgba(5, 180, 255, 0.194);
   color:    rgb(255, 0, 0);
 }
 
@@ -71,23 +79,25 @@ html, body{
     margin:10px;
     padding: 10px;
     border-radius: 25px;
-    background:  rgb(53, 93, 131);
-    color:    rgb(205, 173, 218);
+    background:  rgb(0, 255, 26);
+    color:    rgb(255, 0, 8);
   }
 
-.top-nav li {
+.top-nav li{
   display: inline;
 
 }
 
 .top-nav a{
-  padding: 15px;
-  font-size: 32px;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bolder;
   text-decoration: none;
 }
 
 .top-nav a:hover{
-  background-color: #d2f1f7;
+  background-color: #59c9f2;
+  border-radius: 50px;
 }
 
 .small-nav button{
@@ -127,6 +137,13 @@ html, body{
   text-decoration: none;
 }
 
+
+img {
+  align-self: flex-start;
+}
+
+
+
  /* /////////////   for numbering /////////////////////////*/
 
 
@@ -134,13 +151,30 @@ html, body{
    counter-reset: sectionCounter  cardCounter ;
  }
 
- 
 
-h1.title{
+h1.page-title{
   font-size: 35px;
   font-family: "Muli";
   content:" ";
-  color: rgb(0, 4, 255);
+  margin-bottom: -5px;;
+  color: rgb(0, 77, 179);
+}
+
+
+h1.page-subtitle{
+  font-size: 30px;
+  font-family: "Muli";
+  content:" ";
+  margin-bottom: 20px;
+  color: rgb(0, 77, 179);
+}
+
+h1.title{
+  font-size: 40px;
+  font-family: "Muli";
+  margin-top: 5px;;
+  content:" ";
+  color: rgb(0, 77, 179);
 }
 
 
