@@ -48,8 +48,6 @@ html, body{
 /* for top menu */
 
 .main-header{
-  justify-content: center;
-  align-items: center;
   text-align: center;
   width: 100%;
   font-size: 20px;
