@@ -70,34 +70,26 @@ html, body{
   margin:5px;
   padding: 10px;
   border-radius: 90px;
-  background-color: rgba(5, 180, 255, 0.194);
-  color:    rgb(255, 0, 0);
+  background-color: rgba(0, 80, 134, 0.969);
 }
-
-
-.top-nav-dark ul {
-    margin:10px;
-    padding: 10px;
-    border-radius: 25px;
-    background:  rgb(0, 255, 26);
-    color:    rgb(255, 0, 8);
-  }
 
 .top-nav li{
   display: inline;
+  color: #ffffff;
 
 }
 
 .top-nav a{
   padding: 10px;
-  font-size: 25px;
+  font-size: 28px;
   font-weight: bolder;
   text-decoration: none;
+  color: #fff;
 }
 
 .top-nav a:hover{
-  background-color: #59c9f2;
-  border-radius: 50px;
+  background-color: #afafaf;
+  border-radius: 8px;
 }
 
 .small-nav button{
@@ -142,6 +134,11 @@ img {
   align-self: flex-start;
 }
 
+img.wmargen {
+  align-self: flex-start;
+  margin-top:13px;
+}
+
 
 
  /* /////////////   for numbering /////////////////////////*/
@@ -153,11 +150,11 @@ body.card{
 
 
 h1.page-title{
-  font-size: 35px;
+  font-size: 50px;
   font-family: "Muli";
   content:" ";
-  margin-bottom: -5px;;
-  color: rgb(0, 77, 179);
+  margin-bottom: -5px;
+  color: rgba(0, 111, 208, 0.789);
 }
 
 
@@ -166,7 +163,7 @@ h1.page-subtitle{
   font-family: "Muli";
   content:" ";
   margin-bottom: 20px;
-  color: rgb(0, 77, 179);
+  color: rgba(0, 111, 208, 0.867);
 }
 
 h1.title{
