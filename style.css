@@ -16,17 +16,10 @@ html, body{
   color: black;
 }
 
-.fondo-body-dark{
-  background: #121212;
-  color: rgb( 165, 105, 189 );
-}
-
 .fondo{
   background: rgb(183, 227, 245);
   color: black;
 }
-
-
 
 .flexbox{
   display: flex;
@@ -34,30 +27,6 @@ html, body{
   justify-content: center;
   align-items: center;
 }
-
-
-
-.flexbox_left{
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-  align-items: left;
-}
-
-.flexbox_right{
-  display: flex;
-  flex-direction: column;
-  justify-content: right;
-  align-items: right;
-}
-
-.flexbox_center{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 
 
 /* for top menu */
@@ -72,7 +41,7 @@ html, body{
   margin-top: -80px;
   }
 
-  
+
   header li{
     display: flex;
     align-items: center;
@@ -130,10 +99,25 @@ text-align: center;
   }
 
 
-.calculo-title{
+.title{
+  font-size: 30px;
+  padding: 0.5px;
+  color: rgba(0, 111, 208, 0.789);
   text-align: center;
-  font-size: 150px;
+  font-weight: bolder;
   font-family: "Cinzel";
+  content:" ";
+  margin-bottom: 0px;
+  
+}
+
+
+.subtitle{
+  font-size: 20px;
+  font-family: "Muli";
+  content:" ";
+  margin-bottom: 0px;
+  color: rgba(0, 111, 208, 0.867);
 }
 
 .secciones-main ul{
