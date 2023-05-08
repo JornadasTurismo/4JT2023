@@ -39,8 +39,8 @@ html, body{
   justify-content: space-evenly;
   text-align: center;
   width: 100%;
-  margin-bottom: 0px;
-  margin-top: -90px;
+  margin-bottom: 0%;
+  margin-top: -7.5%;
   }
 
 
@@ -98,8 +98,8 @@ padding: 0px;
 
 
 .title{
-  font-size: 30px;
-  padding: 15px;
+  font-size: 250%;
+  padding: .8%;
   text-align: center;
   font-weight: bolder;
   font-family: "Cinzel";
@@ -108,19 +108,19 @@ padding: 0px;
 
 
 .subtitle{
-  font-size: 25px;
+  font-size: 170%;
   font-family: "Muli";
-  padding: 2px;
-  margin-bottom: 0px;
+  padding: 0.15%;
+  margin-bottom: 0%;
   color:  rgba(0, 111, 208, 0.867);
   
 }
 
 .subtitle a{
-  font-size: 25px;
+  font-size: 160%;
   font-family: "Muli";
-  padding: 1px;
-  margin-bottom: 0px;
+  padding: 0.15%;
+  margin-bottom: 0%;
   color:  rgba(0, 111, 208, 0.867);
   text-decoration: none;
   
@@ -133,7 +133,7 @@ padding: 0px;
 
 
 .subsubtitle{
-  font-size: 20px;
+  font-size: 100%;
   padding: 0px;
   font-family: "Muli";
   margin-bottom: 1px;
@@ -145,11 +145,11 @@ padding: 0px;
 
 
 .subsubtitle a{
-  font-size: 20px;
-  padding: 0px;
+  font-size: 120%;
+  padding: 0%;
   font-family: "Muli";
   content:" ";
-  margin-bottom: 0px;
+  margin-bottom: 0%;
   color: rgb(138, 50, 50);
   /*color: rgba(0, 136, 255, 0.682);*/
   text-decoration: none;
@@ -162,7 +162,7 @@ padding: 0px;
 
 
 .contenedor_titulo{
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
