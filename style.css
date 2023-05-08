@@ -60,7 +60,7 @@ padding: 0px;
 
 .top-nav ul {
   margin:5px;
-  padding: 1px;
+  padding: 3px;
   border-radius: 10px;
   background-color: rgba(0, 80, 134, 0.969);
 }
@@ -72,7 +72,7 @@ padding: 0px;
 }
 
 .top-nav a{
-  padding: 5px;
+  padding: 3px;
   font-size: 18px;
   font-weight: bolder;
   text-decoration: none;
@@ -82,7 +82,7 @@ padding: 0px;
 
 .top-nav a:hover{
   background-color: #afafaf;
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
 .small-nav button{
@@ -102,7 +102,7 @@ padding: 0px;
 
 .title{
   font-size: 30px;
-  padding: 1px;
+  padding: 0px;
   color: rgba(0, 111, 208, 0.789);
   text-align: center;
   font-weight: bolder;
@@ -113,9 +113,9 @@ padding: 0px;
 
 
 .subtitle{
-  font-size: 20px;
+  font-size: 25px;
   font-family: "Muli";
-  padding: 2px;
+  padding: 1px;
   content:" ";
   margin-bottom: 0px;
   color: rgba(0, 111, 208, 0.867);
@@ -123,8 +123,8 @@ padding: 0px;
 
 
 .subsubtitle{
-  font-size: 16px;
-  padding: 2px;
+  font-size: 20px;
+  padding: 0px;
   font-family: "Muli";
   content:" ";
   margin-bottom: 0px;
