@@ -24,8 +24,10 @@ html, body{
 .flexbox{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  width: 10%;
 }
 
 
@@ -42,9 +44,6 @@ html, body{
   }
 
 
-.main-header a{
-padding: -90px;
-  }
  
 .small-nav{
     padding: 10px;
@@ -121,6 +120,22 @@ padding: 0px;
   
 }
 
+.subtitle a{
+  font-size: 25px;
+  font-family: "Muli";
+  padding: 1px;
+  content:" ";
+  margin-bottom: 0px;
+  color:  rgba(0, 111, 208, 0.867);
+  text-decoration: none;
+  
+}
+
+
+.subtitle a:visited {
+  text-decoration: none;
+}
+
 
 .subsubtitle{
   font-size: 20px;
@@ -131,6 +146,9 @@ padding: 0px;
   color: rgb(138, 50, 50);
   /*color: rgba(0, 136, 255, 0.682);*/
 }
+
+
+
 
 .subsubtitle a{
   font-size: 20px;
@@ -147,6 +165,18 @@ padding: 0px;
   text-decoration: none;
 }
 
+
+
+.contenedor_titulo{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+}
 .secciones-main ul{
   margin: 0;
   padding: 10px;
