@@ -33,8 +33,7 @@ html, body{
 
 .main-header{
   display: flex;
-  align-items: flex-start;
-  align-content: center;
+  align-items: center;
   justify-content: space-evenly;
   text-align: center;
   width: 100%;
