@@ -38,14 +38,12 @@ html, body{
   text-align: center;
   width: 100%;
   margin-bottom: 0px;
-  margin-top: -80px;
+  margin-top: -90px;
   }
 
 
-  header li{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.main-header a{
+padding: -90px;
   }
  
 .small-nav{
@@ -59,8 +57,7 @@ padding: 0px;
 
 
 .top-nav ul {
-  margin:5px;
-  padding: 3px;
+  padding: 8px;
   border-radius: 10px;
   background-color: rgba(0, 80, 134, 0.969);
 }
@@ -72,7 +69,7 @@ padding: 0px;
 }
 
 .top-nav a{
-  padding: 3px;
+  padding: 6px;
   font-size: 16px;
   font-weight: bolder;
   text-decoration: none;
@@ -82,7 +79,8 @@ padding: 0px;
 
 .top-nav a:hover{
   background-color: #afafaf;
-  border-radius: 10px;
+  padding: 5px;
+  border-radius: 50px;
 }
 
 .small-nav button{
