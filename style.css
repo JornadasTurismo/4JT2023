@@ -54,13 +54,14 @@ html, body{
 
 .top-nav{
 text-align: center;
+padding: 0px;
 }
 
 
 .top-nav ul {
   margin:5px;
-  padding: 10px;
-  border-radius: 20px;
+  padding: 1px;
+  border-radius: 10px;
   background-color: rgba(0, 80, 134, 0.969);
 }
 
@@ -72,7 +73,7 @@ text-align: center;
 
 .top-nav a{
   padding: 5px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bolder;
   text-decoration: none;
   color: #fff;
@@ -114,6 +115,7 @@ text-align: center;
 .subtitle{
   font-size: 20px;
   font-family: "Muli";
+  padding: 2px;
   content:" ";
   margin-bottom: 0px;
   color: rgba(0, 111, 208, 0.867);
@@ -122,6 +124,7 @@ text-align: center;
 
 .subsubtitle{
   font-size: 16px;
+  padding: 2px;
   font-family: "Muli";
   content:" ";
   margin-bottom: 0px;
