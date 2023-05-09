@@ -46,18 +46,19 @@ html, body{
 
  
 .small-nav{
-    padding: 10px;
+    padding:10px;
   }
 
 .top-nav{
-text-align: center;
-padding: 0px;
+text-align:center; 
+padding: 0%;
 }
 
 
 .top-nav ul {
-  padding: 8px;
+  padding: .85%;
   border-radius: 10px;
+  border: 2px solid #00d5ff81;
   background-color: rgba(0, 80, 134, 0.969);
 }
 
@@ -68,8 +69,8 @@ padding: 0px;
 }
 
 .top-nav a{
-  padding: 6px;
-  font-size: 16px;
+  padding: 1%;
+  font-size: 80%;
   font-weight: bolder;
   text-decoration: none;
   color: #fff;
@@ -77,9 +78,12 @@ padding: 0px;
 }
 
 .top-nav a:hover{
-  background-color: #afafaf;
-  padding: 5px;
-  border-radius: 50px;
+  transition: background-color 0.25s ease;
+  /* transition: font-size 0.5s ease; */
+  background-color: #ffa600;
+  padding: 0.5%;
+  font-size: 100%; 
+  border-radius: 5px;
 }
 
 .small-nav button{
@@ -98,7 +102,7 @@ padding: 0px;
 
 
 .title{
-  font-size: 170%;
+  font-size: 175%;
   padding: .8%;
   text-align: center;
   font-weight: bolder;
@@ -108,7 +112,7 @@ padding: 0px;
 
 
 .subtitle{
-  font-size: 125%;
+  font-size: 135%;
   font-family: "Muli";
   padding: 0.15%;
   margin-bottom: 0%;
@@ -117,7 +121,7 @@ padding: 0px;
 }
 
 .subtitle a{
-  font-size: 125%;
+  font-size: 100%;
   font-family: "Muli";
   padding: 0.15%;
   margin-bottom: 0%;
@@ -145,7 +149,7 @@ padding: 0px;
 
 
 .subsubtitle a{
-  font-size: 100%;
+  font-size: 110%;
   padding: 0%;
   font-family: "Muli";
   content:" ";
