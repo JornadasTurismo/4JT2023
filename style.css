@@ -82,7 +82,7 @@ padding: 0%;
 
 .top-nav a{
   padding: 1%;
-  font-size: 80%;
+  font-size: 120%;
   font-weight: bolder;
   text-decoration: none;
   color: #fff;
@@ -94,7 +94,7 @@ padding: 0%;
   /* transition: font-size 0.5s ease; */
   background-color: #ffa600;
   padding: 0.5%;
-  font-size: 100%; 
+  font-size: 150%; 
   border-radius: 5px;
 }
 
