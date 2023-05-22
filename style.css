@@ -31,6 +31,16 @@ html, body{
 }
 
 
+.cartel{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+}
+
+
 /* for top menu */
 
 .main-header{
@@ -58,7 +68,10 @@ padding: 0px;
 .top-nav ul {
   padding: 8px;
   border-radius: 10px;
-  background-color: rgba(0, 80, 134, 0.969);
+  background-image: url("./Imagenes/Sin_título-1.jpg");
+  background-size: cover;
+  
+  /* background-color: rgba(0, 80, 134, 0.969); */
 }
 
 .top-nav li{
@@ -69,8 +82,8 @@ padding: 0px;
 
 .top-nav a{
   padding: 6px;
-  font-size: 16px;
-  font-weight: bolder;
+  font-size: 20px;
+  font-weight: 900;
   text-decoration: none;
   color: #fff;
 
@@ -108,10 +121,12 @@ padding: 0px;
 
 
 .subtitle{
-  font-size: 170%;
+  font-size: 175%;
   font-family: "Muli";
   padding: 0.15%;
+  font-weight: 700;
   margin-bottom: 0%;
+  margin-top: -1%;
   color:  rgba(0, 111, 208, 0.867);
   
 }
@@ -145,10 +160,11 @@ padding: 0px;
 
 
 .subsubtitle a{
-  font-size: 120%;
+  font-size: 135%;
   padding: 0%;
   font-family: "Muli";
   content:" ";
+  font-weight: 700;
   margin-bottom: 0%;
   color: rgb(138, 50, 50);
   /*color: rgba(0, 136, 255, 0.682);*/
