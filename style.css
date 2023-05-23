@@ -30,6 +30,11 @@ html, body{
   width: 11%;
 }
 
+.flexbox-linea{
+  flex-direction: column;
+}
+
+
 
 .cartel{
   display: flex;
@@ -145,6 +150,19 @@ padding: 0%;
     background-repeat: repeat;
   }
 
+
+  .imagen-lateral {
+    position: fixed;
+    display: grid;
+    grid-template-columns: repeat(1,1fr); /* Cambia el número para ajustar el número de columnas */
+    gap: 0; /* Espacio entre las imágenes */
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    height: 12%;
+    }
+    
   .footer{
     position:  fixed;
     justify-content: flex-end;
