@@ -79,7 +79,7 @@ padding: 0%;
 
 
 .top-nav ul {
-  padding: .85%;
+  padding: .5%;
   border-radius: 10px;
   background-image: url("./Imagenes/Sin_título-1.jpg");
   background-size: cover;
@@ -140,7 +140,7 @@ padding: 0%;
     justify-content: space-between;
     width: auto;
     height: auto; /* Ajusta la altura según tus necesidades */
-    background-image: url('ruta/a/la/imagen.jpg');
+    background-image: url('./Imagenes/Sin_título-12.jpg');
     background-size: cover;
     background-repeat: repeat;
   }
