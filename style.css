@@ -75,6 +75,7 @@ padding: 0%;
 }
 
 
+
 .top-nav ul {
   padding: .85%;
   border-radius: 10px;
@@ -122,6 +123,27 @@ padding: 0%;
     border-radius:  10px  solid #aef1c8;
   }
 
+  .imagen-footer {
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    width: 200%;
+    height: auto; /* Ajusta la altura según tus necesidades */
+    background-image: url('ruta/a/la/imagen.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+  }
+
+  .footer{
+    position:  fixed;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+
+    bottom: 0;
+    width: 50%;
+    
+  }
 
 .title{
   font-size: 175%;
