@@ -37,15 +37,17 @@ html, body{
   justify-content: space-evenly;
   align-items: center;
   align-content: center;
+  padding:0%;
   width: 100%;
 }
 
-.abajo_cartel{
+.arriba_cartel{
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   margin-top: 2%;
+  padding:1%;
   align-content: center;
   width: 100%;
 }
@@ -93,8 +95,8 @@ padding: 0%;
 
 .top-nav a{
   padding: 1%;
-  font-size: 120%;
-  font-weight: bolder;
+  font-size: 100%;
+  font-weight: 1000;
   text-decoration: none;
   color: #fff;
 
@@ -105,7 +107,7 @@ padding: 0%;
   /* transition: font-size 0.5s ease; */
   background-color: #ffa600;
   padding: 0.5%;
-  font-size: 150%; 
+  font-size: 105%; 
   border-radius: 5px;
 }
 
@@ -123,11 +125,20 @@ padding: 0%;
     border-radius:  10px  solid #aef1c8;
   }
 
+    
+
   .imagen-footer {
     position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
     bottom: 0%;
     left: 0%;
-    width: 200%;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
     height: auto; /* Ajusta la altura según tus necesidades */
     background-image: url('ruta/a/la/imagen.jpg');
     background-size: cover;
@@ -156,7 +167,7 @@ padding: 0%;
 
 
 .subtitle{
-  font-size: 175%;
+  font-size: 135%;
   font-family: "Muli";
   padding: 0.15%;
   font-weight: 700;
@@ -195,7 +206,7 @@ padding: 0%;
 
 
 .subsubtitle a{
-  font-size: 135%;
+  font-size: 115%;
   padding: 0%;
   font-family: "Muli";
   content:" ";
