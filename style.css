@@ -61,18 +61,34 @@ html, body{
 
 
 .abajo_cartel{
+  position: fixed;
+  width: 100%;
+  bottom: 0%;
+  left: 5%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: left;
   margin-top: 1%;
   margin-bottom: 0%;
   padding:1%;
   align-content: center;
-  width: 100%;
 }
 
-
+.abajo_cartel2{
+  position: fixed;
+  width: 100%;
+  bottom: 0%;
+  left: 63%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: right;
+  margin-top: 1%;
+  margin-bottom: 0%;
+  padding:1%;
+  align-content: right;
+}
 /* for top menu */
 
 .main-header{
@@ -101,13 +117,6 @@ padding: 0%;
   margin-bottom: 0.5%;
   padding: .5%;
   border-radius: 10px;
-  /*background-image: url("./Imagenes/Sin_título-1.jpg");
-  *//*background-color: rgba(0, 80, 134, 0.969);
-   */:;
-  -webkit-border-radius:;
-  -moz-border-radius:;
-  -ms-border-radius:;
-  -o-border-radius:;
 }
 
 .top-nav li{
@@ -131,7 +140,8 @@ padding: 0%;
 .top-nav a:hover{
   transition: background-color 0.25s ease;
   /*transition: font-size 0.5s ease;
-  */background-color: #ffa600;
+  */
+  background-color: #ffa600;
   padding: 0.25%;
   font-size: 125%;
   border-radius: 5px;
