@@ -890,7 +890,7 @@ ol li::before {
     font-size: 14px;
   }
   .header {
-    display: none;
+    display: block;
   }
 
   /* Estilos para elementos específicos en pantallas pequeñas */
@@ -904,7 +904,7 @@ ol li::before {
   }
   .header {
     display: block;
-    background-color: #f2f2f2;
+    /* background-color: #f2f2f2; */
   }
 }
 
@@ -915,7 +915,7 @@ ol li::before {
   }
   .header {
     display: block;
-    background-color: #fff;
+    /* background-color: #fff; */
   }
   /* Estilos para elementos específicos en pantallas grandes */
 }
