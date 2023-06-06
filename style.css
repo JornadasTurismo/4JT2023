@@ -886,18 +886,33 @@ ol li::before {
 
 /* Estilos para pantallas pequeñas (teléfonos) */
 @media screen and (max-width: 480px) {
-  body {
-    font-size: 5px;
-  }
-  .header {
-    display: block;
-  }
-
-  .imagen {
+  .main-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
     width: 100%;
-    height: auto;
+    margin-bottom: 0%;
+    margin-top: -7.5%;
+    }
+  
+    
+  
+  html, body{
+    margin: 0;
+    padding: 50px;
+    font-family: "Quicksand";
   }
-
+  
+  .fondo-body{
+    background:  rgb(255, 255, 255);
+    color: black;
+  }
+  
+  .fondo{
+    background: rgb(183, 227, 245);
+    color: black;
+   }
   /* Estilos para elementos específicos en pantallas pequeñas */
 }
 
