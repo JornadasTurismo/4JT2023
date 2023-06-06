@@ -887,7 +887,7 @@ ol li::before {
 /* Estilos para pantallas pequeñas (teléfonos) */
 @media screen and (max-width: 480px) {
   body {
-    font-size: 14px;
+    font-size: 10px;
   }
   .header {
     display: block;
