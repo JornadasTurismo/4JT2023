@@ -914,14 +914,24 @@ ol li::before {
   margin-bottom: 0%;
   margin-top: -7.5%;
   }
- 
-  body {
-    font-size: 5px;
-  }
-  .header {
-    display: block;
-    /* background-color: #f2f2f2; */
-  }
+
+  
+
+html, body{
+  margin: 0;
+  padding: 50px;
+  font-family: "Quicksand";
+}
+
+.fondo-body{
+  background:  rgb(255, 255, 255);
+  color: black;
+}
+
+.fondo{
+  background: rgb(183, 227, 245);
+  color: black;
+ }
 }
 
 /* Estilos para pantallas grandes (computadoras de escritorio) */
