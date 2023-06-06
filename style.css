@@ -911,7 +911,7 @@ ol li::before {
 /* Estilos para pantallas grandes (computadoras de escritorio) */
 @media screen and (min-width: 1025px) {
   body {
-    font-size: 25px;
+    font-size: 18px;
   }
   .header {
     display: block;
