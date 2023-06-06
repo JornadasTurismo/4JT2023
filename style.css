@@ -887,7 +887,7 @@ ol li::before {
 /* Estilos para pantallas pequeñas (teléfonos) */
 @media screen and (max-width: 480px) {
   body {
-    font-size: 10px;
+    font-size: 5px;
   }
   .header {
     display: block;
@@ -900,7 +900,7 @@ ol li::before {
 @media screen and (min-width: 481px) and (max-width: 1024px) {
   /* Estilos para elementos específicos en pantallas medianas */
   body {
-    font-size: 10px;
+    font-size: 5px;
   }
   .header {
     display: block;
