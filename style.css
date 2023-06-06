@@ -886,15 +886,36 @@ ol li::before {
 
 /* Estilos para pantallas pequeñas (teléfonos) */
 @media screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+  .header {
+    display: none;
+  }
+
   /* Estilos para elementos específicos en pantallas pequeñas */
 }
 
 /* Estilos para pantallas medianas (tabletas) */
 @media screen and (min-width: 481px) and (max-width: 1024px) {
   /* Estilos para elementos específicos en pantallas medianas */
+  body {
+    font-size: 16px;
+  }
+  .header {
+    display: block;
+    background-color: #f2f2f2;
+  }
 }
 
 /* Estilos para pantallas grandes (computadoras de escritorio) */
 @media screen and (min-width: 1025px) {
+  body {
+    font-size: 18px;
+  }
+  .header {
+    display: block;
+    background-color: #fff;
+  }
   /* Estilos para elementos específicos en pantallas grandes */
 }
