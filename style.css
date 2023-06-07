@@ -82,6 +82,8 @@ html, body{
   width: 100%;
 }
 
+
+
 .arriba_cartel{
   display: flex;
   flex-direction: column;
@@ -125,6 +127,30 @@ html, body{
   align-content: right;
 }
 /* for top menu */
+
+
+.img_programa1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  margin-top: 0.5%;
+  padding:0%;
+  width: 100%;
+}
+
+.img_programa2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  margin-top: 0%;
+  padding:0%;
+  width: 100%;
+}
+
 
 .main-header{
   display: flex;
