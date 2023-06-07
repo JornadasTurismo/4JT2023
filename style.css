@@ -883,22 +883,3 @@ ol li::before {
   font-weight: bold;
   font-size: 20px;
 }*/
-
-/* Estilos para pantallas pequeñas (teléfonos) */
-@media screen and (max-width: 480px) {
-  
-}
-
-/* Estilos para pantallas medianas (tabletas) */
-@media screen and (min-width: 481px) and (max-width: 1024px) {
-  /* Estilos para elementos específicos en pantallas medianas */
-  }
-
-  
-
-}
-
-/* Estilos para pantallas grandes (computadoras de escritorio) */
-@media screen and (min-width: 1025px) {
-  /* Estilos para elementos específicos en pantallas grandes */
-}
