@@ -183,19 +183,18 @@ padding: 0%;
 .top-nav li{
   display: inline;
   color: #ffffff;
+  padding: 2%;
 
 }
 
 .top-nav a{
-  padding: 2%;
+  padding: 0.25%;
   font-size: 123%;
   font-weight: 800;
   text-decoration: none;
   color: #000000;
   font-family: "Muli";
   color:  rgb(0, 0, 0);
-
-
 }
 
 .top-nav a:hover{
@@ -223,8 +222,6 @@ padding: 0%;
     background-color:#aef1c8;
     border-radius:  10px  solid #aef1c8;
   }
-
-    
 
   .imagen-footer {
     position: fixed;
